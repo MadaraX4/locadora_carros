@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "customers";
+$servername = "eyvqcfxf5reja3nv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+$username = "om21a5orqzdkyry0";
+$password = "jrfspjwoqgsd07if";
+$dbname = "bv2ph7m6e9xtwvr5";
 
 try {
   $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
