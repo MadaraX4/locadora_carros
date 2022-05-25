@@ -13,6 +13,20 @@
   <body>
     <h1>Loca-CAR Assaré</h1>
 
+    <div class="container">
+    <form name="form_imc" id="form_imc" method="POST" enctype="multipart/form-data" action="imc.php" >
+      <div class="form-group">
+      <label for="altura">Nome</label>
+      <input type="number" step="0.01" min="1" class="form-control" id="nome" name="nome">
+      </div>
+      <div class="form-group">
+      <label for="exampleInputPassword1">E-mail</label>
+      <input type="number" step="0.01" min="1" class="form-control" id="email" name="email">
+      </div>
+      <button type="submit" class="btn btn-primary">Locar</button>
+    </form>
+    </div>     
+
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
